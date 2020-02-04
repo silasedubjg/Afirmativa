@@ -1,0 +1,17 @@
+
+
+
+
+
+
+.box1{background: rgb(76, 175, 80, 0.6);}
+.box2{background: rgb(12, 12, 12, 0.6);}
+.box3{background: rgb(150, 0, 0, 0.6);}
+
+body{
+	padding-top: 60px;
+}
+
+
+.nav-item::after{content:'';display:block;width:0px;height:2px;background:#4169E1;transition: 0.2s;}
+.nav-item:hover::after{width:100%;}

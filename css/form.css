@@ -1,0 +1,18 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      
+}
+
+.abc{
+      height: 100px;
+      position: relative;
+      top: 60px;
+}
+.nav-item::after{content:'';display:block;width:0px;height:2px;background:#4169E1;transition: 0.2s;}
+.nav-item:hover::after{width:100%;}

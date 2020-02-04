@@ -1,0 +1,22 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body { 
+      
+
+      background-position: 30% 45%;
+      background-size: cover;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+.nav-item::after{content:'';display:block;width:0px;height:2px;background:#4169E1;transition: 0.2s;}
+.nav-item:hover::after{width:100%;}
