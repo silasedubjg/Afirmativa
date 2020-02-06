@@ -61,7 +61,7 @@
               </li>
 
               <li class="nav-item col-md-3 col-xs-2 col-sm-2">
-                <a class="nav-link " href="contato.php">Contato</a>
+                <a class="nav-link " href="contact.php">Contato</a>
               </li>
 
 

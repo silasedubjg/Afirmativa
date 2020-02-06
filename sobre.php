@@ -63,7 +63,7 @@
                   </li>
 
                   <li class="nav-item col-md-3 col-xs-2 col-sm-2">
-                    <a class="nav-link " href="contato.php">Contato</a>
+                    <a class="nav-link " href="contact.php">Contato</a>
                   </li>
 
 
@@ -137,15 +137,29 @@
     <div class="row">
 
       <div class="col-xs-12">
-        
+
         <!--Titulo-->
 
-        <h1 class="col-lg-offset-1"> Sobre  </h1>
-        <div class=" col-lg-6">
+        
+        <div class=" col-xs-12 col-lg-6">
+          <h1 class="col-xs-offset-1"> Sobre  </h1><br>
 
           <!--Texto-->
           
-          <p id="textafir">Afirmativa Corretora de Seguros oferece aos clientes a maior proteção possível para todas as suas necessidades relacionadas a seguros. Como uma das principais corretoras de seguros na área de Ipatinga/MG, construímos uma clientela fiel graças à nossa rigorosa política de sempre colocar o cliente em primeiro lugar.<BR><BR>Se você está procurando uma empresa de alto nível que faz tudo o que estiver ao seu alcance para garantir a sua satisfação, entre em contato conosco. Nossos especialistas em seguros estão aqui para todas as suas necessidades e será um prazer lhe oferecer um orçamento gratuito.</p>
+          <p id="textafir">Afirmativa Corretora de Seguros oferece aos clientes a maior proteção possível para todas as suas necessidades relacionadas a seguros. Como uma das principais corretoras de seguros na área de Ipatinga/MG, construímos uma clientela fiel graças à nossa rigorosa política de sempre colocar o cliente em primeiro lugar.<BR><BR>Se você está procurando uma empresa de alto nível que faz tudo o que estiver ao seu alcance para garantir a sua satisfação, entre em contato conosco. Nossos especialistas em seguros estão aqui para todas as suas necessidades e será um prazer lhe oferecer um orçamento gratuito.<br><br>Afirmativa Corretora de Seguros oferece aos clientes a maior proteção possível para todas as suas necessidades relacionadas a seguros. Como uma das principais corretoras de seguros na área de Ipatinga/MG, construímos uma clientela fiel graças à nossa rigorosa política de sempre colocar o cliente em primeiro lugar.<BR><BR>Se você está procurando uma empresa de alto nível que faz tudo o que estiver ao seu alcance para garantir a sua satisfação, entre em contato conosco. Nossos especialistas em seguros estão aqui para todas as suas necessidades e será um prazer lhe oferecer um orçamento gratuito.</p><br><br><br>
+
+          <button type="button" class="btn btn-lg btn-primary col-lg-offset-4 col-xs-offset-3 col-sm-offset-5" onclick="cotar()">Cote agora!</button>
+          <br><br><br>
+
+
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div class="col-lg-offset-8 col-md-offset-7 visible-lg visible-md">
+          <div>
+
+
+            <img src="img/afir.jpg">
+          </div>
         </div>
 
 
@@ -155,5 +169,10 @@
 
 </section>
 
+<script>
+  function cotar(){
+    window.location.href ="cotacao.php"
+  }
+</script>
 </body>
 </html>

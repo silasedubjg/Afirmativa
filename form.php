@@ -62,7 +62,7 @@
                 </li>
 
                 <li class="nav-item col-md-3 col-xs-2 col-sm-2">
-                  <a class="nav-link " href="contato.php">Contato</a>
+                  <a class="nav-link " href="contact.php">Contato</a>
                 </li>
 
 
@@ -91,7 +91,7 @@
                 <!--<div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="/accounts/login/">Sign In</a></div>-->
               </div>  
                 <div class="panel-body" >
-                  <form method="post" action="index.php">
+                  <form method="post" action="e-mail.php">
                     <input type='hidden' name='csrfmiddlewaretoken' value='XFe2rTYl9WOpV8U6X5CfbIuOZOELJ97S' />
                     <form  class="form-horizontal" method="post" >
                       <input type='hidden' name='csrfmiddlewaretoken' value='XFe2rTYl9WOpV8U6X5CfbIuOZOELJ97S' />
@@ -136,13 +136,13 @@
                       <div id="div_id_select" class="form-group required">
                         <label for="id_select"  class="control-label col-md-4  requiredField"> Estado civil<span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 "  style="margin-bottom: 10px">
-                          <label class="radio-inline"><input type="radio" checked="checked" name="select" id="id_select_1" value="S"  style="margin-bottom: 10px">Solteiro</label>
+                          <label class="radio-inline"><input type="radio" checked="checked" name="select" id="id_select_1" value="Solteiro"  style="margin-bottom: 10px">Solteiro</label>
                           <br>
-                          <label class="radio-inline"> <input type="radio" name="select" id="id_select_2" value="P"  style="margin-bottom: 10px">Casado</label>
+                          <label class="radio-inline"> <input type="radio" name="select" id="id_select_2" value="Casado"  style="margin-bottom: 10px">Casado</label>
                           <br>
-                          <label class="radio-inline"> <input type="radio" name="select" id="id_select_3" value="P"  style="margin-bottom: 10px">Viúvo</label>
+                          <label class="radio-inline"> <input type="radio" name="select" id="id_select_3" value="Viúvo"  style="margin-bottom: 10px">Viúvo</label>
                           <br>
-                          <label class="radio-inline"> <input type="radio" name="select" id="id_select_4" value="P"  style="margin-bottom: 20px">Divorciado</label>
+                          <label class="radio-inline"> <input type="radio" name="select" id="id_select_4" value="Divorciado"  style="margin-bottom: 20px">Divorciado</label>
                         </div>
                         <!--Aqui acima acaba o radio estado civil e comeca o proximo item abaixo-->
                       </div> 
@@ -151,13 +151,13 @@
                       <div id="div_id_As" class="form-group required">
                         <label for="id_As"  class="control-label col-md-4  requiredField">Tipo de residência<span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 "  style="margin-bottom: 10px">
-                          <label class="radio-inline"> <input type="radio" name="As" id="id_As_1" value="I"  style="margin-bottom: 10px">Casa</label>
+                          <label class="radio-inline"> <input type="radio" name="As" id="id_As_1" value="Casa"  style="margin-bottom: 10px">Casa</label>
                           <br>
-                          <label class="radio-inline"> <input type="radio" name="As" id="id_As_2" value="CI"  style="margin-bottom: 10px">Apartamento </label>
+                          <label class="radio-inline"> <input type="radio" name="As" id="id_As_2" value="Apartamento"  style="margin-bottom: 10px">Apartamento </label>
                           <br>
-                          <label class="radio-inline"> <input type="radio" name="As" id="id_As_2" value="CI"  style="margin-bottom: 10px">Condomínio fechado</label>
+                          <label class="radio-inline"> <input type="radio" name="As" id="id_As_3" value="Condomínio fechado"  style="margin-bottom: 10px">Condomínio fechado</label>
                           <br>
-                          <label class="radio-inline"> <input type="radio" name="As" id="id_As_2" value="CI"  style="margin-bottom: 10px">Outros</label>
+                          <label class="radio-inline"> <input type="radio" name="As" id="id_As_4" value="Outros"  style="margin-bottom: 10px">Outros</label>
                         </div>
                       </div>
                       <!--Acima termina o radio tipo residencia e abaixo comeca outro item-->
@@ -166,8 +166,8 @@
                       <div id="div_id_portao" class="form-group required">
                         <label for="id_portao"  class="control-label col-md-4  requiredField"> Tipo de portão<span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 "  style="margin-bottom: 10px">
-                         <label class="radio-inline"> <input type="radio" name="portao" id="id_portao_1" value="M"  style="margin-bottom: 10px">Automático</label>
-                         <label class="radio-inline"> <input type="radio" name="portao" id="id_portao_2" value="F"  style="margin-bottom: 10px">Manual </label>
+                         <label class="radio-inline"> <input type="radio" name="portao" id="id_portao_1" value="Automático"  style="margin-bottom: 10px">Automático</label>
+                         <label class="radio-inline"> <input type="radio" name="portao" id="id_portao_2" value="Manual"  style="margin-bottom: 10px">Manual </label>
                        </div>
                       </div>
                       <!--Acima acaba portao-->
@@ -182,15 +182,16 @@
                       <!--Acima acaba o CEP -->
 
                       <!--Abaixo comeca o upload CNH-->
-                      <div id="div_id_upload" class="form-group required">
-                        <label for="id_upload" class="control-label col-md-4  requiredField"> CNH do condutor<span class="asteriskField">*</span> </label>
-                        <div class="controls col-md-8 ">
-                          <input type="file" />
-                        </div> 
-                      </div>
-                      <br>
+                      <!-- Campo: anexo --> 
+ <div class="form-group">
+   <label class="col-md-4 control-label" for="arquivo">Anexo</label>
+ <div class="col-md-4">
+   <input id="arquivo" name="arquivo" class="input-file" type="file">
+     <span class="help-block">2MB por mensagem</span>
+ </div>
+ </div> 
                       <!-- Acima acaba upload CNH-->
-
+    <br><br>
                       <!--Abaixo comeca o upload DUT-->
                       <div class="form-group">
                         <div id="div_id_dut" class="form-group required">
@@ -200,14 +201,14 @@
                           <label for="id_dut" class="control-label col-md-4  requiredField"> DUT do veículo<span class="asteriskField">*</span> </label>
                           <div class="controls col-md-8 ">
                             <br>
-                            <input type="file" />
+                            <input type="file" NAME="DUT"/>
 
                           </div> 
                         </div>
                       </div>
                         <!--Acima acaba o upload DUT-->
 
-                        <input type=hidden name="recipient" value="viniciusengcefet@hotmail.com">
+                        <input type=hidden name="recipient" value="silas.edu.bjg@gmail.com">
                         <input type=hidden name="subject" value="Teste">
                         <input type=hidden name="redirect" value="http://localhost/Afirmativa/form.php">
                         <div class="form-group"> 
@@ -215,7 +216,7 @@
                           </div>
                           <div class="controls col-md-8 ">
                             <br>
-                            <input  style="width: 300px" type="submit" onclick ="chamar()" name="Enviar" value="Enviar" class="btn btn-primary btn btn-info" id="submit-id-enviar" />
+                            <input  style="width: 300px" type="submit"name="Enviar" value="Enviar" class="btn btn-primary btn btn-info" id="submit-id-enviar" />
                           </div>
                         </div> 
                     </form>
@@ -225,11 +226,6 @@
             </div> 
           </div>            
     </section>
-     <script>
-
-      function chamar(){
-        window.location.href = "mail.php";
-      }
-  </script>
+    
 </body>
 </html>
