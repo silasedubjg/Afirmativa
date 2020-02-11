@@ -66,9 +66,13 @@ if(file_exists($arquivo["tmp_name"]) and !empty($arquivo)){
 if(mail($to, $assunto, $mensagem, $headers))
 {
  echo "<br><br><center><b><font color='green'>Mensagem enviada com sucesso!";
+
 } 
  else
  {
  echo "<br><br><center><b><font color='red'>Ocorreu um erro ao enviar a mensagem!";
 }
+ <div class="col-md-12">
+ <button name="submit" type="submit" class="btn btn-primary normal-btn dart-btn-xs"> ENVIAR MENSAGEM</button>
+ </div>
 ?>

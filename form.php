@@ -91,7 +91,7 @@
                 <!--<div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="/accounts/login/">Sign In</a></div>-->
               </div>  
                 <div class="panel-body" >
-                  <form method="post" action="e-mail.php">
+                  <form method="post" enctype="multipart/form-data" action="enviar_email.php">
                     <input type='hidden' name='csrfmiddlewaretoken' value='XFe2rTYl9WOpV8U6X5CfbIuOZOELJ97S' />
                     <form  class="form-horizontal" method="post" >
                       <input type='hidden' name='csrfmiddlewaretoken' value='XFe2rTYl9WOpV8U6X5CfbIuOZOELJ97S' />
@@ -183,31 +183,8 @@
 
                       <!--Abaixo comeca o upload CNH-->
                       <!-- Campo: anexo --> 
- <div class="form-group">
-   <label class="col-md-4 control-label" for="arquivo">Anexo</label>
- <div class="col-md-4">
-   <input id="arquivo" name="arquivo" class="input-file" type="file">
-     <span class="help-block">2MB por mensagem</span>
- </div>
- </div> 
-                      <!-- Acima acaba upload CNH-->
-    <br><br>
-                      <!--Abaixo comeca o upload DUT-->
-                      <div class="form-group">
-                        <div id="div_id_dut" class="form-group required">
-                          <p>
-                          </p>
 
-                          <label for="id_dut" class="control-label col-md-4  requiredField"> DUT do veículo<span class="asteriskField">*</span> </label>
-                          <div class="controls col-md-8 ">
-                            <br>
-                            <input type="file" NAME="DUT"/>
-
-                          </div> 
-                        </div>
-                      </div>
-                        <!--Acima acaba o upload DUT-->
-
+            <input type="file" name="attach1"/><br><br>
                         <input type=hidden name="recipient" value="silas.edu.bjg@gmail.com">
                         <input type=hidden name="subject" value="Teste">
                         <input type=hidden name="redirect" value="http://localhost/Afirmativa/form.php">

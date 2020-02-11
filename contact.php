@@ -118,12 +118,15 @@
                     <hr>
 
                     <div class=" row contact-info">
+
                       <div class="col-md-12 col-sm-12">
                         <p class="addre"><i class="fa fa-map-marker"></i>R. Jequitibá, 762 - Horto, Ipatinga - MG, 35160-306</p>
                       </div>
+
                       <div class="col-md-12 col-sm-12">
                         <p class="phone-call"><i class="fa fa-phone"></i> <a href="tel:+553138281500">(31) 3828-1500</a></p>
                       </div>
+
                       <div class="col-md-12 col-sm-12">
                         <p class="mail-id"><i class="fa fa-envelope"></i>contact@yourcompany.com</p>
                       </div>
@@ -131,16 +134,13 @@
                       <div class="col-md-12 col-sm-12" style="margin-top: 60px" >
                          
                         <ul class="redesSociais">
-                          <li><a href="https://www.facebook.com/afirmativaseguro/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                          <li><a href="https://www.facebook.com/afirmativaseguro/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                          <li><a href="https://www.instagram.com/afirmativaseguros/?hl=pt-br"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                          <li><a href="https://www.instagram.com/afirmativaseguros/?hl=pt-br" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         </ul>
+
                       </div>
-
                     </div>
-
-                    
-
                   </div>
                 </div>                
               </div>            
